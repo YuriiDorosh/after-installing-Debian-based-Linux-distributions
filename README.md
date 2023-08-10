@@ -1,4 +1,4 @@
-# This repository was created for my needs, but I give access to anyone who wants to use it and add to it. Here you will not find 100% system setup, but only what I need when reinstalling the Ubuntu OS.
+# This repository was created for my needs, but I give access to anyone who wants to use it and adding something to it. Here you will not find 100% system setup, but only what I need when reinstalling the Ubuntu OS.
 
 # Contents:
 - [Update packages](#update-packages)
