@@ -13,6 +13,9 @@
 - [Installing Docker](#installing-docker)
 - [Installing Docker Compose](#installing-docker-compose)
 - [Installing PostgreSQL](#installing-postgresql)
+- [Installing GCC](#installing-gcc)
+- [Installing OBS](#installing-obs-open-broadcaster-software)
+- [Installing Nvidia Drivers](#installing-nvidia-drivers)
 
 ---
 
@@ -193,4 +196,35 @@ psql
 Set a password:
 ```bash
 \password postgres
+```
+
+---
+
+## Installing GCC:
+```bash
+sudo apt update
+sudo apt install build-essential
+```
+
+---
+
+## Installing OBS (Open Broadcaster Software):
+```bash
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio
+```
+
+---
+
+## Installing NVIDIA drivers:
+
+#### Ubuntu
+```bash
+sudo ubuntu-drivers autoinstall
+```
+
+#### Debian 
+```bash
+sudo apt install nvidia-driver
 ```
