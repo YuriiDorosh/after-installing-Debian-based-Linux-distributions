@@ -17,6 +17,9 @@ def main():
         "10": ("Install Docker", "install_docker.sh"),
         "11": ("Install Docker Compose", "install_docker_compose.sh"),
         "12": ("Install PostgreSQL", "install_postgresql.sh"),
+        "13": ("Install GCC", "gcc.sh"),
+        "14": ("Install OBS", "obs.sh"),
+        "15": ("Install NVIDIA drivers", "nvidia_drivers.sh"),
     }
 
     while True:
