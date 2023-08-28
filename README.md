@@ -245,3 +245,13 @@ sudo apt install nvidia-driver
    ```bash 
    sudo apt install ./discord.deb
    ```
+
+    ---
+
+
+ ## Installing Node.Js:
+   ```bash 
+   sudo apt install nodejs 
+   ```   
+   
+   
