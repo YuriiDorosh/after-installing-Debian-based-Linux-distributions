@@ -228,3 +228,20 @@ sudo ubuntu-drivers autoinstall
 ```bash
 sudo apt install nvidia-driver
 ```
+
+---
+
+
+ ## Installing Spotify:
+   ```bash 
+   sudo apt install spotify-client 
+   ```   
+   
+   ---
+
+   ## Installing Discord:  
+   
+   ####  
+   ```bash 
+   sudo apt install ./discord.deb
+   ```
