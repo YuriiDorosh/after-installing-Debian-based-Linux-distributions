@@ -242,7 +242,7 @@ sudo apt install nvidia-driver
    ## Installing Discord:  
 
    ```bash 
-   sudo apt install ./discord.deb
+   sudo snap install discord
    ```
 
 ---
