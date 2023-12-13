@@ -232,24 +232,29 @@ sudo apt install nvidia-driver
 ---
 
 
- ##  Installing Spotify:
-   ```bash 
-   sudo apt install spotify-client 
-   ```   
-   
- ---
+##  Installing Spotify:
+  ```bash 
+  sudo apt install spotify-client 
+  ```   
+  
+---
 
-   ## Installing Discord:  
+  ## Installing Discord:  
 
-   ```bash 
-   sudo snap install discord
-   ```
+  ```bash 
+  sudo snap install discord
+  ```
 
 ---
 
- ## Installing Node.Js:
-   ```bash 
-   sudo apt install nodejs 
-   ```   
-   
-   
+## Installing Node.Js:
+  ```bash 
+  sudo apt install nodejs 
+  ```   
+  
+  ---
+  
+  ## Installing Postman:
+  ```bash
+    sudo snap install postman
+  ```
