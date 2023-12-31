@@ -2,6 +2,7 @@
 
 # Contents:
 - [Update packages](#update-packages)
+- [Add keyboard layout](#add-keyboard-layout)
 - [Bind to change the keyboard layout to alt+shift](#bind-to-change-the-keyboard-layout-to-altshift)
 - [Installing and configuring git](#installing-and-configuring-git)
 - [For Python](#for-python)
@@ -16,6 +17,10 @@
 - [Installing GCC](#installing-gcc)
 - [Installing OBS](#installing-obs-open-broadcaster-software)
 - [Installing Nvidia Drivers](#installing-nvidia-drivers)
+- [Installing Spotify](#installing-spotify)
+- [Installing Discord](#installing-discord)
+- [Installing Node.Js](#installing-nodejs)
+- [Installing Postman](#installing-postman)
 
 ---
 
@@ -25,6 +30,17 @@
 sudo apt update
 sudo apt upgrade
 ```
+
+---
+
+## Add keyboard layout: 
+
+
+Open Settings.
+
+Click Keyboard in the sidebar to open the panel.
+
+Click the + button in the Input Sources section, select the language which is associated with the layout, then select a layout and press Add.
 
 ---
 
@@ -234,27 +250,27 @@ sudo apt install nvidia-driver
 
 ##  Installing Spotify:
   ```bash 
-  sudo apt install spotify-client 
-  ```   
+sudo snap install spotify  
+```   
   
 ---
 
-  ## Installing Discord:  
+## Installing Discord:  
 
-  ```bash 
-  sudo snap install discord
-  ```
+```bash 
+sudo snap install discord
+```
 
 ---
 
 ## Installing Node.Js:
-  ```bash 
-  sudo apt install nodejs 
-  ```   
-  
-  ---
-  
-  ## Installing Postman:
-  ```bash
-    sudo snap install postman
-  ```
+```bash 
+sudo apt install nodejs 
+```   
+
+---
+
+## Installing Postman:
+```bash
+  sudo snap install postman
+```
