@@ -5,7 +5,7 @@ def main():
     options = {
         "1": ("Update packages", "update_packages.sh"),
         "2": ("Bind keyboard layout to alt+shift", "bind_keyboard_layout.sh"),
-        "3": ("Install and configure git", "git_install.sh"),
+        "3": ("Install and configure git", "install_git.sh"),
         "4": ("Install Python", "python_install.sh"),
         "5": ("Create SSH key", "create_ssh_key.sh"),
         "6": ("Install Google Chrome", "install_chrome.sh"),
@@ -18,6 +18,7 @@ def main():
         "13": ("Install GCC", "gcc.sh"),
         "14": ("Install OBS", "obs.sh"),
         "15": ("Install NVIDIA drivers", "nvidia_drivers.sh"),
+        "16": ("Install Spotify", "install_spotify.sh"),
     }
 
     while True:
