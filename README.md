@@ -22,6 +22,7 @@
 - [Installing Node.Js](#installing-nodejs)
 - [Installing Postman](#installing-postman)
 - [Installing Composer](#installing-composer)
+- [Installing TypeScript](#installing-typescript)
 
 ---
 
@@ -281,7 +282,6 @@ sudo apt install nodejs
 node -v
 ```
 
-
 ---
 
 ## Installing Postman:
@@ -300,3 +300,12 @@ node -v
   sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
   sudo composer self-update
 ```
+
+---
+
+## Installing TypeScript:
+```bash
+  sudo apt install node-typescript
+```
+
+---
