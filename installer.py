@@ -19,6 +19,10 @@ def main():
         "14": ("Install OBS", "obs.sh"),
         "15": ("Install NVIDIA drivers", "nvidia_drivers.sh"),
         "16": ("Install Spotify", "install_spotify.sh"),
+        "17": ("Install Discord", "install_spotify.sh"),
+        "18": ("Install Node.js", "install_nodejs.sh"),
+        "19": ("Install Postman", "install_postman.sh"),
+        "20": ("Install Composer", "install_composer.sh"),
     }
 
     while True:
