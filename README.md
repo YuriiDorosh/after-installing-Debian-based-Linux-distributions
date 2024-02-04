@@ -21,6 +21,7 @@
 - [Installing Discord](#installing-discord)
 - [Installing Node.Js](#installing-nodejs)
 - [Installing Postman](#installing-postman)
+- [Installing Composer](#installing-composer)
 
 ---
 
@@ -266,7 +267,20 @@ sudo snap install discord
 ## Installing Node.Js:
 ```bash 
 sudo apt install nodejs 
+sudo apt install npm
+cd ~
+curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs
 ```   
+
+if error:
+```bash
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/nodejs_18.19.0-1nodesource1_amd64.deb
+sudo apt install nodejs
+node -v
+```
+
 
 ---
 
