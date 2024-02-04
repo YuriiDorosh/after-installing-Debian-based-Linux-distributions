@@ -23,6 +23,7 @@ def main():
         "18": ("Install Node.js", "install_nodejs.sh"),
         "19": ("Install Postman", "install_postman.sh"),
         "20": ("Install Composer", "install_composer.sh"),
+        "21": ("Install TypeScript", "install_typescript.sh"),
     }
 
     while True:
