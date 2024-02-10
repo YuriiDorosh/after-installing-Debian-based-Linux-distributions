@@ -25,6 +25,7 @@
 - [Installing Composer](#installing-composer)
 - [Installing TypeScript](#installing-typescript)
 - [Installing Redis](#installing-redis)
+- [Installing Telegram Desktop](#installing-telegram-desktop)
 
 ---
 
@@ -338,6 +339,13 @@ node -v
 ## Installing Redis:
 ```bash
   sudo apt-get install redis-server
+```
+
+---
+
+## Installing Telegram Desktop:
+```bash
+  sudo snap install telegram-desktop
 ```
 
 ---
