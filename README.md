@@ -24,6 +24,7 @@
 - [Installing Postman](#installing-postman)
 - [Installing Composer](#installing-composer)
 - [Installing TypeScript](#installing-typescript)
+- [Installing Redis](#installing-redis)
 
 ---
 
@@ -330,6 +331,13 @@ node -v
 ## Installing TypeScript:
 ```bash
   sudo apt install node-typescript
+```
+
+---
+
+## Installing Redis:
+```bash
+  sudo apt-get install redis-server
 ```
 
 ---
