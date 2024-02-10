@@ -3,6 +3,7 @@
 # Contents:
 - [Update packages](#update-packages)
 - [Add keyboard layout](#add-keyboard-layout)
+- [Monitors Config](#monitors-config)
 - [Bind to change the keyboard layout to alt+shift](#bind-to-change-the-keyboard-layout-to-altshift)
 - [Installing and configuring git](#installing-and-configuring-git)
 - [For Python](#for-python)
@@ -46,6 +47,25 @@ Open Settings.
 Click Keyboard in the sidebar to open the panel.
 
 Click the + button in the Input Sources section, select the language which is associated with the layout, then select a layout and press Add.
+
+---
+
+## Monitors Config: 
+
+### xrandr (example)
+```bash
+$ xrandr
+```
+
+```bash
+DVI-D-1 connected primary 1920x1080+1920+0 (normal left inverted right x axis y axis) 527mm x 296mm
+
+HDMI-1 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 527mm x 296mm
+```
+
+```bash
+xrandr --output DVI-D-1 --right-of HDMI-1
+```
 
 ---
 
