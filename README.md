@@ -6,6 +6,7 @@
 - [Bind to change the keyboard layout to alt+shift](#bind-to-change-the-keyboard-layout-to-altshift)
 - [Installing and configuring git](#installing-and-configuring-git)
 - [For Python](#for-python)
+- [For PHP](#for-php)
 - [Creating ssh key](#creating-ssh-key)
 - [Google Chrome](#google-chrome)
 - [PyCharm](#pycharm)
@@ -66,6 +67,29 @@ git config --global user.email "your_email@example.com"
 ```bash
 sudo apt install pip
 sudo apt install python3.10-venv
+```
+
+---
+
+## For PHP:
+
+### PHP
+```bash
+sudo apt install software-properties-common ca-certificates lsb-release apt-transport-https 
+LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php 
+sudo apt update 
+sudo apt install php8.2  
+```
+### mbstring
+```bash
+sudo apt-get update
+sudo apt-get install php-mbstring
+```
+
+### PHP-Redis
+```bash
+sudo apt-get update
+sudo apt-get install php-redis
 ```
 
 ---
