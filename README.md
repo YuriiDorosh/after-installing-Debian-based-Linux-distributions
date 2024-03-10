@@ -369,3 +369,12 @@ node -v
 ```
 
 ---
+
+## Installing PHP Code Sniffer:
+```bash
+  sudo apt-get update
+  sudo apt-get install php-xml
+  sudo apt install php-codesniffer
+```
+
+---
