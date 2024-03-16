@@ -26,6 +26,7 @@ def main():
         "21": ("Install TypeScript", "install_typescript.sh"),
         "21": ("Install Redis", "install_redis.sh"),
         "21": ("Install Telegram Desktop", "install_telegram.sh"),
+        "22": ("Install PHP", "install_php.sh"),
     }
 
     while True:
