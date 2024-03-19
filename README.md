@@ -28,6 +28,7 @@
 - [Installing Redis](#installing-redis)
 - [Installing Telegram Desktop](#installing-telegram-desktop)
 - [Installing PHP Code Sniffer](#installing-php-code-sniffer)
+- [Installing L2TP](#installing-l2tp)
 
 ---
 
@@ -377,6 +378,14 @@ node -v
   sudo apt-get update
   sudo apt-get install php-xml
   sudo apt install php-codesniffer
+```
+
+---
+
+## Installing L2TP:
+```bash
+  sudo apt update
+  sudo apt install network-manager-l2tp network-manager-l2tp-gnome strongswan libstrongswan-extra-plugins
 ```
 
 ---
