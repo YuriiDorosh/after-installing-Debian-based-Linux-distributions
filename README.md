@@ -27,6 +27,7 @@
 - [Installing TypeScript](#installing-typescript)
 - [Installing Redis](#installing-redis)
 - [Installing Telegram Desktop](#installing-telegram-desktop)
+- [Installing PHP Code Sniffer](#installing-php-code-sniffer)
 
 ---
 
