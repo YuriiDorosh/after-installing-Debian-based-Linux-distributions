@@ -24,9 +24,10 @@ def main():
         "19": ("Install Postman", "install_postman.sh"),
         "20": ("Install Composer", "install_composer.sh"),
         "21": ("Install TypeScript", "install_typescript.sh"),
-        "21": ("Install Redis", "install_redis.sh"),
-        "21": ("Install Telegram Desktop", "install_telegram.sh"),
-        "22": ("Install PHP", "install_php.sh"),
+        "22": ("Install Redis", "install_redis.sh"),
+        "23": ("Install Telegram Desktop", "install_telegram.sh"),
+        "24": ("Install PHP", "install_php.sh"),
+        "25": ("Install L2TP", "install_l2tp.sh.sh"),
     }
 
     while True:
