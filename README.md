@@ -153,7 +153,54 @@ sudo apt install snapd
 sudo snap install code --classic
 ```
 
+if 
+```bash
+[19814:0606/134456.415221:ERROR:gpu_process_host.cc(993)] GPU process exited unexpectedly: exit_code=133
+[19814:0606/134456.415235:WARNING:gpu_process_host.cc(1364)] The GPU process has crashed 6 time(s)
+[19814:0606/134456.415243:FATAL:gpu_data_manager_impl_private.cc(448)] GPU process isn't usable. Goodbye.
+[0606/134456.419486:ERROR:process_memory_range.cc(75)] read out of range
+[0606/134456.419494:ERROR:process_memory_range.cc(75)] read out of range
+```
+
+use this:
+
+```bash
+sudo snap install --revision=159 --classic code
+```
+
+my VS Code config:
+
+~/.config/Code/User/settings.json
+
+```json
+{
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "bearded-icons",
+    "extensions.ignoreRecommendations": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "github.copilot.editor.enableAutoCompletions": true
+}
+```
+
+~/.config/Code/User/keybindings.json
+
+```json
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+    
+]
+
+```
+
 ---
+
 
 ## Vim:
 ```bash
