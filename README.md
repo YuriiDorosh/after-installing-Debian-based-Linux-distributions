@@ -165,6 +165,7 @@ if
 use this:
 
 ```bash
+sudo snap remove code
 sudo snap install --revision=159 --classic code
 ```
 
