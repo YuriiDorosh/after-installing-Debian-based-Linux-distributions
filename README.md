@@ -1,6 +1,7 @@
 # This repository was created for my needs, but I give access to anyone who wants to use it and adding something to it. Here you will not find 100% system setup, but only what I need when reinstalling the Ubuntu OS.
 
 # Contents:
+- [Memory cleaning](#memory-cleaning)
 - [Update packages](#update-packages)
 - [Add keyboard layout](#add-keyboard-layout)
 - [Monitors Config](#monitors-config)
@@ -31,6 +32,22 @@
 - [Installing L2TP](#installing-l2tp)
 
 ---
+
+## Memory cleaning:
+```bash
+  docker system prune -a -f
+  sudo apt-get clean
+  sudo find /var/log -type f -exec truncate -s 0 {} \;
+```
+
+cron:
+```bash
+sudo crontab -e
+```
+
+```bash
+0 3 * * * sudo apt-get clean && sudo find /var/log -type f -exec truncate -s 0 {} \;
+```
 
 ## Update packages:
 
