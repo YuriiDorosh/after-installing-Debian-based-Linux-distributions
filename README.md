@@ -289,6 +289,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
+#### Add your user to Docker group:
+```bash
+sudo usermod -aG docker $USER
+```
+
 ---
 
 ## Installing PostgreSQL:
