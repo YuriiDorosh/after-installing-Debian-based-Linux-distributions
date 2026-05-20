@@ -30,6 +30,8 @@
 - [Installing Telegram Desktop](#installing-telegram-desktop)
 - [Installing PHP Code Sniffer](#installing-php-code-sniffer)
 - [Installing L2TP](#installing-l2tp)
+- [Installing Certbot](#installing-certbot)
+- [Installing Cockpit](#installing-cockpit)
 
 ---
 
@@ -456,6 +458,33 @@ node -v
 ```bash
   sudo apt update
   sudo apt install network-manager-l2tp network-manager-l2tp-gnome strongswan libstrongswan-extra-plugins
+```
+
+---
+
+## Installing Certbot:
+```bash
+sudo apt update
+sudo apt install certbot python3-certbot-nginx -y
+```
+
+Verification example (Dry Run):
+```bash
+sudo certbot renew --dry-run
+```
+
+---
+
+## Installing Cockpit:
+```bash
+sudo apt update
+sudo apt install cockpit -y
+sudo systemctl enable --now cockpit.socket
+```
+
+Open Firewall Port (if ufw is used):
+```bash
+sudo ufw allow 9090/tcp
 ```
 
 ---
